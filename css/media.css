@@ -1,0 +1,36 @@
+@media(min-width:900px) {
+	html{
+		font-size: 62.5%;
+	}
+	.burger{
+		display:none;
+	}
+
+	.nav__links{
+		position: relative;
+		width: auto;
+		top: 0;
+		left: 0;
+		background-color: transparent;
+		align-items: center;
+		color:#000;
+		flex-direction: row;
+	}
+
+	.header__title {
+		max-width: 115rem;
+		display: grid;
+		grid-template-columns: 3fr 2fr;
+		row-gap: 3rem;
+		align-content: center;
+		justify-content: center;
+		align-items: center;
+		justify-items: center;
+ }
+ .features {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap:4rem;
+
+ }
+}
