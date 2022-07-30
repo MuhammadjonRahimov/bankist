@@ -17,6 +17,19 @@
 	padding: 0;
 	box-sizing: inherit;
  }
+ ::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background:var(--color-primary);
+}
+::-webkit-scrollbar-button {
+	background:#bbb;
+}
  
  html {
 	font-size: 32.5%;
